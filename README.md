@@ -9,4 +9,4 @@
 - [retrofit](https://pub.dev/packages/retrofit) , [retrofit_generator](https://pub.dev/packages/retrofit_generator)  : Dio için tür dönüştürücüsü (fromJson, toJson)
 - [json_annotation](https://pub.dev/packages/json_annotation), [json_serializable](https://pub.dev/packages/json_serializable) : Json'larımı serialization ve deserialization etmek için kullanılıyor.
 - [build_runner](https://pub.dev/packages/build_runner) : Dart kodu kullanarak yardımcı dosyalarımızı oluşturmaya yarar.
-
+- [get_it](https://pub.dev/packages/get_it) : Singleton ve factory sınıflar oluşturmak için kullanacağımız paket.
