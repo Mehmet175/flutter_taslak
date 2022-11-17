@@ -1,4 +1,4 @@
-##Kullanılan Kütüphaneler
+Kullanılan Kütüphaneler
 
     lint : Kod okunabilirliğini arttırmak için kullanılıyor.
     dio : Http işlemlerimizi yapmak için kullanıyoruz.
@@ -9,7 +9,7 @@
     build_runner : Dart kodu kullanarak yardımcı dosyalarımızı oluşturmaya yarar.
     get_it : Singleton ve factory sınıflar oluşturmak için kullanacağımız paket.
 
-##Base'ler
+Base'ler
 
     base_view : Pagelerimizin en üst katmanını sarmaladığımız stateless widget. Provider'ımızı her seferinde tanımlamamız gerekliliğininden bizi kurtaracak. Aynı zamanda view_model'lerimizdeki onInit metodunu sayfa yüklendikten sonra çalıştıracak.
     base_view_model : Projemizde providerımız için bir base. Bu sınıf sayesinde her view_model'de bulunması gereken metod ve değişkenleri bir kere tanımlayıp kurtuluyoruz.
