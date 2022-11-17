@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:taslak/core/locator/locator.dart';
 
-import 'package:taslak/features/auth/view/login_view.dart';
+import 'package:taslak/features/auth/view/login_page.dart';
 
 void main() {
   setupLocators();
@@ -14,11 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginPage(),
+      home: LoginPage(),
     );
   }
 }

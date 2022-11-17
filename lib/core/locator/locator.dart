@@ -11,4 +11,6 @@ void setupLocators(){
   // ViewModel
   getIt.registerFactory(() => LoginViewModel());
 
+  // Token
+  getIt.registerSingleton<String>("");
 }
