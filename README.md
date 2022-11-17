@@ -1,4 +1,4 @@
-# taslak
+# Flutter Projelerim İçin Oluşturduğum Bir Taslak Uygulama
 
 A new Flutter project.
 
