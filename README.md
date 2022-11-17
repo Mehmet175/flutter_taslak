@@ -2,7 +2,7 @@
 
 ## Kullanılan Kütüphaneler
 
-- [lint](https://pub.dev/packages/lint)
+- [lint](https://pub.dev/packages/lint) : Kod okunabilirliğini arttırmak için kullanılıyor.
 
 This project is a starting point for a Flutter application.
 
