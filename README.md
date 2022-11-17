@@ -10,3 +10,8 @@
 - [json_annotation](https://pub.dev/packages/json_annotation), [json_serializable](https://pub.dev/packages/json_serializable) : Json'larımı serialization ve deserialization etmek için kullanılıyor.
 - [build_runner](https://pub.dev/packages/build_runner) : Dart kodu kullanarak yardımcı dosyalarımızı oluşturmaya yarar.
 - [get_it](https://pub.dev/packages/get_it) : Singleton ve factory sınıflar oluşturmak için kullanacağımız paket.
+
+## Base'ler
+- base_view : Pagelerimizin en üst katmanını sarmaladığımız stateless widget. Provider'ımızı her seferinde tanımlamamız gerekliliğininden bizi kurtaracak. Aynı zamanda view_model'lerimizdeki onInit metodunu sayfa yüklendikten sonra çalıştıracak.
+- base_view_model : Projemizde providerımız için bir base. Bu sınıf sayesinde her view_model'de bulunması gereken metod ve değişkenleri bir kere tanımlayıp kurtuluyoruz.
+- base_model : Bu sınıf sayesinde modellerimizi katmanlar arasında taşırken herhangi bir hata olduğunda hatayı taşımamızı kolaylaştırıyor.
