@@ -1,8 +1,8 @@
 # Flutter Projelerim İçin Oluşturduğum Bir Taslak Uygulama
 
-A new Flutter project.
+## Kullanılan Kütüphaneler
 
-## Getting Started
+- 
 
 This project is a starting point for a Flutter application.
 
