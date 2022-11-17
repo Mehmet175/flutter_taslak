@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:taslak/core/locator/locator.dart';
+
+import 'package:taslak/features/auth/view/login_view.dart';
 
 void main() {
+  setupLocators();
   runApp(const MyApp());
 }
 
@@ -14,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const LoginPage(),
     );
   }
 }
