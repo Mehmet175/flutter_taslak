@@ -2,7 +2,7 @@
 
 ## Kullanılan Kütüphaneler
 
-- [lint](https://docs.flutter.dev/get-started/codelab](https://pub.dev/packages/lint)
+- [lint](https://pub.dev/packages/lint)
 
 This project is a starting point for a Flutter application.
 
