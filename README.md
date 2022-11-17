@@ -3,7 +3,8 @@
 ## Kullanılan Kütüphaneler
 
 - [lint](https://pub.dev/packages/lint) : Kod okunabilirliğini arttırmak için kullanılıyor.
-
+- [dio](https://pub.dev/packages/dio) : Http işlemlerimizi yapmak için kullanıyoruz.
+- 
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
