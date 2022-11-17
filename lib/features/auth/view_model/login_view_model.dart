@@ -6,14 +6,11 @@ import 'package:taslak/core/services/user_repository.dart';
 
 class LoginViewModel extends BaseViewModel {
   @override
-  Future<void> onInit() async {
-
-  }
+  Future<void> onInit() async {}
 
   final IUserRepository _userRepository = GetIt.instance<IUserRepository>();
 
   Future<String?> auth(LoginModel loginModel) async {
     return _userRepository.auth(loginModel);
   }
-
 }

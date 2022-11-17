@@ -6,7 +6,9 @@ import 'package:taslak/core/services/user_repository.dart';
 import 'package:taslak/features/auth/view_model/login_view_model.dart';
 import 'package:taslak/features/home/view_model/home_view_model.dart';
 
+
 GetIt getIt = GetIt.instance;
+
 
 void setupLocators() {
   // Repositories
