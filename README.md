@@ -1,18 +1,16 @@
-# taslak
+Kullanılan Kütüphaneler
 
-A new Flutter project.
+    lint : Kod okunabilirliğini arttırmak için kullanılıyor.
+    dio : Http işlemlerimizi yapmak için kullanıyoruz.
+    pretty_dio_logger : Dio paketi üzerinden veri gönderip aldığımızda, bu verilerin log'larını bize verir.
+    provider : State management paketimiz
+    retrofit , retrofit_generator : Dio için tür dönüştürücüsü (fromJson, toJson)
+    json_annotation, json_serializable : Json'larımı serialization ve deserialization etmek için kullanılıyor.
+    build_runner : Dart kodu kullanarak yardımcı dosyalarımızı oluşturmaya yarar.
+    get_it : Singleton ve factory sınıflar oluşturmak için kullanacağımız paket.
 
-## Getting Started
+Base'ler
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
+    base_view : Pagelerimizin en üst katmanını sarmaladığımız stateless widget. Provider'ımızı her seferinde tanımlamamız gerekliliğininden bizi kurtaracak. Aynı zamanda view_model'lerimizdeki onInit metodunu sayfa yüklendikten sonra çalıştıracak.
+    base_view_model : Projemizde providerımız için bir base. Bu sınıf sayesinde her view_model'de bulunması gereken metod ve değişkenleri bir kere tanımlayıp kurtuluyoruz.
+    base_model : Bu sınıf sayesinde modellerimizi katmanlar arasında taşırken herhangi bir hata olduğunda hatayı taşımamızı kolaylaştırıyor.
